@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .master{
     background-size: cover;
     min-height: 50vh;
@@ -13,4 +17,17 @@
     .master{
         min-height: 30vh;
     }
+}
+
+.footer-end{
+    height: 401px;
+    width: 1920px;
+}
+.footer-link li{
+    list-style: none;
+}
+.footer-link li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 50px;
 }

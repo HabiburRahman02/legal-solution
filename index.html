@@ -1,383 +1,504 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Legal Solution</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- css link -->
-    <link rel="stylesheet" href="style.css">
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/9b0e4a59c4.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
 
-    <header>
-        <!-- navbar start -->
-        <section class="container mt-3">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-                <div class="container-fluid">
-                  <a class="navbar-brand ps-4" href="#">
-                    <img src="images/logo2.png" alt="">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active ps-4" aria-current="page" href="#">Home
-                            </i>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link ps-4" href="#">Services
-                            <i class="fa-solid fa-angle-right"></i>
-                        </a>
-                      </li>
-                     
-                      <li class="nav-item">
-                        <a class="nav-link ps-4" href="#">Cases
-                            <i class="fa-solid fa-angle-right"></i>
-                        </a>
-                      </li>
-                     
-                      <li class="nav-item">
-                        <a class="nav-link ps-4" href="#">Blogs
-                            <i class="fa-solid fa-angle-right"></i>
-                        </a>
-                      </li>
-                     
-                      <li class="nav-item">
-                        <a class="nav-link ps-4" href="#">Contact us
-                            <i class="fa-solid fa-angle-right"></i>
-                        </a>
-                      </li>
-                     
-                    
-                    </ul>
-                    <form class="d-flex px-4" role="search">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal Solution</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/9b0e4a59c4.js" crossorigin="anonymous"></script>
 
-                      <!-- Button trigger modal -->
-<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Free Consultation
-</button>
+  <!-- google font(poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Legal Solution Project</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>I learn HTML,CSS,Bootstrap and Tailwind CSS <br>
-          So I'm very happy</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-danger">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-                      <!-- <button class=" btn btn-danger" type="submit">Free Consultation</button> -->
-                    </form>
+</head>
+
+<body>
+
+  <header>
+    <!-- navbar start -->
+    <section class="container mt-3">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-4" href="#">
+            <img style="height: 30px;" class="img-fluid" src="images/logo2.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ps-4" aria-current="page" href="#">Home
+                  </i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4" href="#services">Services
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link ps-4" href="#cases">Cases
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link ps-4" href="#blogs">Blogs
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link ps-4" href="#about us">About Us
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link ps-4" href="#contact us">Contact us
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+
+
+            </ul>
+            <form class="d-flex px-4" role="search">
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Free Consultation
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Legal Solution Project</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>I learn HTML,CSS,Bootstrap and Tailwind CSS <br>
+                        So I'm very happy</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-danger">Save changes</button>
+                    </div>
                   </div>
                 </div>
-              </nav>
-        </section>
-        <!-- navbar end -->
-        <!-- image and text start-->
-        <section class="container py-2">
-          
-          <div class="master rounded-3" style="background-image: url(images/banner.png);">
-             <div class="color-overly d-flex justify-content-center align-items-center">
-              <div class="text-center">
-               <b> <span class="h1">We Provide Effective </span></b><br>
-               <b> <span class="h1">Legal Solutions</span></b>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <input type="search" class="px-5 py-2 border-0 rounded-2"><button class="btn btn-danger ms-2">Search</button>
               </div>
-            
-              
-             </div>
+              <!-- <button class=" btn btn-danger" type="submit">Free Consultation</button> -->
+            </form>
           </div>
-        </section>
-        <!-- image and text end -->
-    </header>
+        </div>
+      </nav>
+    </section>
+    <!-- navbar end -->
+    <!-- image and text start-->
+    <section class="container py-2" id="services">
 
-    <main>
-      <section class="container my-5">
+      <div class="master rounded-3" style="background-image: url(images/banner.png);">
+        <div class="color-overly d-flex justify-content-center align-items-center">
           <div class="text-center">
-            <h2>The Legal Practice Area</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
-          </div>
-          <!-- icon start -->
-         <div>
-           <div class="card-group gap-">
-            
-            <div class="card shadow-sm py-5 border-1 border-start-0 border-top-0 text-center d-flex justify-content-center align-items-center">
-              <img style="height: 40px;width: 40px;" class="img-fluid" src="images/education.png"card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><b>Education Law</b></h5>
-                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..</p>
-                
-                <img src="images/Frame.png" alt="">
-              </div>
-            </div>
-
-            <div class="card shadow-none py-5 border-1 border-top-0 text-center d-flex justify-content-center align-items-center">
-              <img style="height: 40px;width: 40px;" class="img-fluid" src="images/criminal.png"card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><b>Child Support</b></h5>
-                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..</p>
-                
-                <img src="images/Frame.png" alt="">
-              </div>
-            </div>
-
-            <div class="card shadow-sm py-5 border-1 border-end-0 border-top-0 text-center d-flex justify-content-center align-items-center">
-              <img style="height: 40px;width: 40px;" class="img-fluid" src="images/tax.png"card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><b>Tax Law</b></h5>
-                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..</p>
-                
-                <img src="images/Frame.png" alt="">
-              </div>
-            </div>
-            
-
+            <b> <span class="h1">We Provide Effective </span></b><br>
+            <b> <span class="h1">Legal Solutions</span></b>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <input type="search" class="px-5 py-2 border-0 rounded-2"><button
+              class="btn btn-danger ms-2">Search</button>
           </div>
 
-           <div class="card-group gap-">
-            
-            <div class="card shadow-sm py-5 border-1 border-start-0 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
-              <img style="height: 40px;width: 40px;" class="img-fluid" src="images/business.png"card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><b>Business Law</b></h5>
-                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..</p>
-                
-                <img src="images/Frame.png" alt="">
-              </div>
-            </div>
 
-            <div class="card shadow-sm py-5 border-1 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
-              <img style="height: 40px;width: 40px;" class="img-fluid" src="images/divorce.png"card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><b>Divorce Law</b></h5>
-                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..</p>
-                
-                <img src="images/Frame.png" alt="">
-              </div>
-            </div>
-
-            <div class="card shadow-sm py-5 border-1 border-end-0 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
-              <img style="height: 40px;width: 40px;" class="img-fluid" src="images/child.png"card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><b>Child Support</b></h5>
-                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..</p>
-                
-                <img src="images/Frame.png" alt="">
-              </div>
-            </div>
-            
-
-          </div>
-
-         </div>
-          <!-- icon end -->
-      </section>
-
-      <!-- slider start -->
-      <section class="container my-5">
-            <div class="text-center mb-5">
-              <h2>What Our Client Say</h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                <br> suffered alteration in some form, by injected humour</p>
-            </div>
-            
-            <div>
-              <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner rounded-3 ">
-
-                  <div class="carousel-item active ">
-                    <img style="height: 440px;"  src="images/slider-1.jpg" class=" img-fluid d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block ">
-                      <img style="height: 80px; width: 80px;" class="img-fluid" src="images/player-1.png" alt="">
-                      <h2>Harry Brook</h2>
-                      <h4>Web Application Developer</h4>
-                      <p>Some representative placeholder content Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti placeat, laboriosam, iste commodi repellendus amet esse vitae fuga tenetur vel quo temporibus dicta aliquid repudiandae totam voluptate laudantium dolore blanditiis necessitatibus quae aut suscipit. Esse doloremque velit fuga repellat. Eius autem perspiciatis recusandae ratione sapiente placeat deleniti, aut earum ducimus? Non mollitia veritatis quidem, natus voluptas quia provident perferendis dolorem laudantium ea quisquam esse, sequi nemo iusto laboriosam voluptates id. for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item active ">
-                    <img style="height: 440px;"  src="images/slider-2.jpg" class=" img-fluid d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block ">
-                      <img style="height: 80px; width: 80px;" class="img-fluid" src="images/player-3.png" alt="">
-                      <h2>Mark Wood</h2>
-                      <h4>PHP Developer</h4>
-                      <p>Some representative placeholder content Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti placeat, laboriosam, iste commodi repellendus amet esse vitae fuga tenetur vel quo temporibus dicta aliquid repudiandae totam voluptate laudantium dolore blanditiis necessitatibus quae aut suscipit. Esse doloremque velit fuga repellat. Eius autem perspiciatis recusandae ratione sapiente placeat deleniti, aut earum ducimus? Non mollitia veritatis quidem, natus voluptas quia provident perferendis dolorem laudantium ea quisquam esse, sequi nemo iusto laboriosam voluptates id. for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item active ">
-                    <img style="height: 440px;"  src="images/slider-3.jpg" class=" img-fluid d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block ">
-                      <img style="height: 80px; width: 80px;" class="img-fluid" src="images/player-5.png" alt="">
-                      <h2>David Miller</h2>
-                      <h4>UI\UX Designer</h4>
-                      <p>Some representative placeholder content Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti placeat, laboriosam, iste commodi repellendus amet esse vitae fuga tenetur vel quo temporibus dicta aliquid repudiandae totam voluptate laudantium dolore blanditiis necessitatibus quae aut suscipit. Esse doloremque velit fuga repellat. Eius autem perspiciatis recusandae ratione sapiente placeat deleniti, aut earum ducimus? Non mollitia veritatis quidem, natus voluptas quia provident perferendis dolorem laudantium ea quisquam esse, sequi nemo iusto laboriosam voluptates id. for the first slide.</p>
-                    </div>
-                  </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-
-      </section>
-      <!-- slider end-->
-
-      <!-- question start -->
-      <section class="container py-5">
-        <div class="text-center mb-5">
-          <h2>Frequently Asked Any Questions</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-            <br> suffered alteration in some form, by injected humour</p>
         </div>
-        <div>
-          <div class="row d-flex justify-content-center align-items-center">
+      </div>
+    </section>
+    <!-- image and text end -->
+  </header>
 
-            <div class="col-md-6  ">
-                <div class="shadow-sm p-4 rounded-3 bg-body-secondary">
-                  <h3>1.Grid and Flexbox</h3>
-                  <p>Grid is made for a two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox gives you more flexibility while working on either element</p>
-                </div>
-                <div class="shadow-none p-4 rounded-3 mt-3 bg-body-secondary">
-                  <h3>2.Media Query </h3>
-                  <p>A media query consists of a media type and can contain one or more expressions, which resolve to either true or false. ... The result of the query is true if the Using media queries - CSS: Cascading Style Sheets</p>
-                </div>
-                <div class="shadow-none p-4 rounded-3 mt-3 bg-body-secondary">
-                  <h3>3.CSS Box Model</h3>
-                  <p>
-                    The CSS box model is a container that contains multiple properties including borders, margins, padding, and the content itself. It is used to create the design and layout of web pages. </p>
-                </div>
-                <div class="shadow-none p-4 rounded-3 mt-3 bg-body-secondary">
-                  <h3>4.HTML Semantic Tag</h3>
-                  <p>Semantic HTML tags are tags that define the meaning of the content they contain. For example, tags like HTML tags. They clearly indicate the role of the content they contain. On the other hand,</p>
-                </div>
+  <main>
+    <section class="container my-5" id="cases">
+      <div class="text-center">
+        <h2>The Legal Practice Area</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
+          alteration in some form, by injected humour.</p>
+      </div>
+      <!-- icon start -->
+      <div>
+        <div class="card-group gap-">
+
+          <div
+            class="card shadow-sm py-5 border-1 border-start-0 border-top-0 text-center d-flex justify-content-center align-items-center">
+            <img style="height: 40px;width: 40px;" class="img-fluid" src="images/education.png" card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Education Law</b></h5>
+              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour..</p>
+
+              <img src="images/Frame.png" alt="">
             </div>
-
-            <div class="col-md-6">
-              <img class="img-fluid ms-3" src="images/faq.png" alt="">
-            </div>
-
           </div>
+
+          <div
+            class="card shadow-none py-5 border-1 border-top-0 text-center d-flex justify-content-center align-items-center">
+            <img style="height: 40px;width: 40px;" class="img-fluid" src="images/criminal.png" card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Child Support</b></h5>
+              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour..</p>
+
+              <img src="images/Frame.png" alt="">
+            </div>
+          </div>
+
+          <div
+            class="card shadow-sm py-5 border-1 border-end-0 border-top-0 text-center d-flex justify-content-center align-items-center">
+            <img style="height: 40px;width: 40px;" class="img-fluid" src="images/tax.png" card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Tax Law</b></h5>
+              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour..</p>
+
+              <img src="images/Frame.png" alt="">
+            </div>
+          </div>
+
+
         </div>
 
-      </section>
-      <!-- question end -->
+        <div class="card-group gap-">
 
-      <!-- contact start -->
-      <section class="container py-4">
-        <div class="text-center">
-          <h2>Contact With Us</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-            <br> suffered alteration in some form, by injected humour</p>
+          <div
+            class="card shadow-sm py-5 border-1 border-start-0 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
+            <img style="height: 40px;width: 40px;" class="img-fluid" src="images/business.png" card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Business Law</b></h5>
+              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour..</p>
+
+              <img src="images/Frame.png" alt="">
+            </div>
+          </div>
+
+          <div
+            class="card shadow-sm py-5 border-1 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
+            <img style="height: 40px;width: 40px;" class="img-fluid" src="images/divorce.png" card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Divorce Law</b></h5>
+              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour..</p>
+
+              <img src="images/Frame.png" alt="">
+            </div>
+          </div>
+
+          <div
+            class="card shadow-sm py-5 border-1 border-end-0 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
+            <img style="height: 40px;width: 40px;" class="img-fluid" src="images/child.png" card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Child Support</b></h5>
+              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour..</p>
+
+              <img src="images/Frame.png" alt="">
+            </div>
+          </div>
+
+
         </div>
 
-        
-          
-          <div class="row">
-            <div class="col-md-6">
-              <div>
-                <div class="card-group gap-">
-                 
-                 
-                 <div class="card shadow-none bg-body-secondary py-5 border-1 border-top-0 text-center d-flex justify-content-center align-items-center">
-                   <img style="height: 40px;width: 40px;" class="img-fluid" src="images/location.png"card-img-top" alt="...">
-                   <div class="card-body">
-                     <h5 class="card-title"><b>Address</b></h5>
-                     <p class="card-text">A10A Adam Street <br>New York,America</p>                                      
-                   </div>
-                 </div>
-     
-                 <div class="card shadow-sm bg-body-secondary py-5 border-1 border-end-0 border-top-0 text-center d-flex justify-content-center align-items-center">
-                   <img style="height: 40px;width: 40px;" class="img-fluid" src="images/call.png"card-img-top" alt="...">
-                   <div class="card-body">
-                     <h5 class="card-title"><b>Call Us</b></h5>
-                     <p class="card-text">01779888454 <br>
+      </div>
+      <!-- icon end -->
+    </section>
+
+    <!-- slider start -->
+    <section class="container my-5" id="blogs">
+      <div class="text-center mb-5">
+        <h2>What Our Client Say</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+          <br> suffered alteration in some form, by injected humour
+        </p>
+      </div>
+
+      <div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner rounded-3 ">
+
+            <div class="carousel-item active ">
+              <img style="height: 440px;" src="images/slider-1.jpg" class=" img-fluid d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block ">
+                <img style="height: 80px; width: 80px;" class="img-fluid" src="images/player-1.png" alt="">
+                <h2>Harry Brook</h2>
+                <h4>Web Application Developer</h4>
+                <p>Some representative placeholder content Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti placeat, laboriosam, iste commodi repellendus amet esse vitae fuga tenetur vel quo temporibus
+                  dicta aliquid repudiandae totam voluptate laudantium dolore blanditiis necessitatibus quae aut
+                  suscipit. Esse doloremque velit fuga repellat. Eius autem perspiciatis recusandae ratione sapiente
+                  placeat deleniti, aut earum ducimus? Non mollitia veritatis quidem, natus voluptas quia provident
+                  perferendis dolorem laudantium ea quisquam esse, sequi nemo iusto laboriosam voluptates id. for the
+                  first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item active ">
+              <img style="height: 440px;" src="images/slider-2.jpg" class=" img-fluid d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block ">
+                <img style="height: 80px; width: 80px;" class="img-fluid" src="images/player-3.png" alt="">
+                <h2>Mark Wood</h2>
+                <h4>PHP Developer</h4>
+                <p>Some representative placeholder content Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti placeat, laboriosam, iste commodi repellendus amet esse vitae fuga tenetur vel quo temporibus
+                  dicta aliquid repudiandae totam voluptate laudantium dolore blanditiis necessitatibus quae aut
+                  suscipit. Esse doloremque velit fuga repellat. Eius autem perspiciatis recusandae ratione sapiente
+                  placeat deleniti, aut earum ducimus? Non mollitia veritatis quidem, natus voluptas quia provident
+                  perferendis dolorem laudantium ea quisquam esse, sequi nemo iusto laboriosam voluptates id. for the
+                  first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item active ">
+              <img style="height: 440px;" src="images/slider-3.jpg" class=" img-fluid d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block ">
+                <img style="height: 80px; width: 80px;" class="img-fluid" src="images/player-5.png" alt="">
+                <h2>David Miller</h2>
+                <h4>UI\UX Designer</h4>
+                <p>Some representative placeholder content Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti placeat, laboriosam, iste commodi repellendus amet esse vitae fuga tenetur vel quo temporibus
+                  dicta aliquid repudiandae totam voluptate laudantium dolore blanditiis necessitatibus quae aut
+                  suscipit. Esse doloremque velit fuga repellat. Eius autem perspiciatis recusandae ratione sapiente
+                  placeat deleniti, aut earum ducimus? Non mollitia veritatis quidem, natus voluptas quia provident
+                  perferendis dolorem laudantium ea quisquam esse, sequi nemo iusto laboriosam voluptates id. for the
+                  first slide.</p>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <!-- slider end-->
+
+    <!-- question start -->
+    <section class="container py-5" id="about us">
+      <div class="text-center mb-5">
+        <h2>Frequently Asked Any Questions</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+          <br> suffered alteration in some form, by injected humour
+        </p>
+      </div>
+      <div>
+        <div class="row d-flex justify-content-center align-items-center">
+
+          <div class="col-md-6  ">
+            <div class="shadow-sm p-4 rounded-3 bg-body-secondary">
+              <h3>1.Grid and Flexbox</h3>
+              <p>Grid is made for a two-dimensional layout while Flexbox is for one. This means Flexbox can work on
+                either row or columns at a time, but Grids can work on both. Flexbox gives you more flexibility while
+                working on either element</p>
+            </div>
+            <div class="shadow-none p-4 rounded-3 mt-3 bg-body-secondary">
+              <h3>2.Media Query </h3>
+              <p>A media query consists of a media type and can contain one or more expressions, which resolve to either
+                true or false. ... The result of the query is true if the Using media queries - CSS: Cascading Style
+                Sheets</p>
+            </div>
+            <div class="shadow-none p-4 rounded-3 mt-3 bg-body-secondary">
+              <h3>3.CSS Box Model</h3>
+              <p>
+                The CSS box model is a container that contains multiple properties including borders, margins, padding,
+                and the content itself. It is used to create the design and layout of web pages. </p>
+            </div>
+            <div class="shadow-none p-4 rounded-3 mt-3 bg-body-secondary">
+              <h3>4.HTML Semantic Tag</h3>
+              <p>Semantic HTML tags are tags that define the meaning of the content they contain. For example, tags like
+                HTML tags. They clearly indicate the role of the content they contain. On the other hand,</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <img class="img-fluid ms-3" src="images/faq.png" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- question end -->
+
+    <!-- contact start -->
+    <section class="container py-4" id="contact us">
+      <div class="text-center">
+        <h2>Contact With Us</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+          <br> suffered alteration in some form, by injected humour
+        </p>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div>
+            <div class="card-group gap-">
+
+
+              <div
+                class="card shadow-none bg-body-secondary py-5 border-1 border-top-0 text-center d-flex justify-content-center align-items-center">
+                <img style="height: 40px;width: 40px;" class="img-fluid" src="images/location.png" card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Address</b></h5>
+                  <p class="card-text">A10A Adam Street <br>New York,America</p>
+                </div>
+              </div>
+
+              <div
+                class="card shadow-sm bg-body-secondary py-5 border-1 border-end-0 border-top-0 text-center d-flex justify-content-center align-items-center">
+                <img style="height: 40px;width: 40px;" class="img-fluid" src="images/call.png" card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Call Us</b></h5>
+                  <p class="card-text">01779888454 <br>
                     01646920961</p>
-                   </div>
-                 </div>
-                     
-               </div>
-     
-                <div class="card-group gap-">
-                 
-                 
-     
-                 <div class="card shadow-sm bg-body-secondary py-5 border-1 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
-                   <img style="height: 40px;width: 40px;" class="img-fluid" src="images/email.png"card-img-top" alt="...">
-                   <div class="card-body">
-                     <h5 class="card-title"><b>Email US</b></h5>
-                     <p class="card-text">habibur@gmaail.com <br>
-                    habuvai@gmail.com</p>
-                   </div>
-                 </div>
-     
-                 <div class="card shadow-sm bg-body-secondary py-5 border-1 border-end-0 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
-                   <img style="height: 40px;width: 40px;" class="img-fluid" src="images/time.png"card-img-top" alt="...">
-                   <div class="card-body">
-                     <h5 class="card-title"><b>Working Hours</b></h5>
-                     <p class="card-text">Sunday: 9AM to 1 PM <br>
-                      Mon-Fri: 9AM to 5PM </p>
-                   </div>
-                 </div>
-                 
-     
-               </div>
-     
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <form class="mt-2">
-                <div class="mt-3">
-                  <input type="text" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your name" id="exampleInputPassword1">
-
-                  <input type="email" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your email" id="exampleInputPassword1">
-
-                  <input type="text" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your subject" id="exampleInputPassword1">
-
-                  <input type="text" class="form-control bg-body-secondary py-5 mb-4" placeholder="Your message" id="exampleInputPassword1">
-
-                  <!-- <button style="width: 640px; height: 60px;" class="btn btn-danger ">Send Message</button> -->
-                  <!-- Button trigger modal -->
-
-                   <button class="btn btn-danger px-5 ">Send Message</button> 
                 </div>
-            
-              </form>
-              
+              </div>
+
             </div>
+
+            <div class="card-group gap-">
+
+
+
+              <div
+                class="card shadow-sm bg-body-secondary py-5 border-1 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
+                <img style="height: 40px;width: 40px;" class="img-fluid" src="images/email.png" card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Email US</b></h5>
+                  <p class="card-text">habibur@gmaail.com <br>
+                    habuvai@gmail.com</p>
+                </div>
+              </div>
+
+              <div
+                class="card shadow-sm bg-body-secondary py-5 border-1 border-end-0 border-top-0 border-bottom-0 text-center d-flex justify-content-center align-items-center">
+                <img style="height: 40px;width: 40px;" class="img-fluid" src="images/time.png" card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Working Hours</b></h5>
+                  <p class="card-text">Sunday: 9AM to 1 PM <br>
+                    Mon-Fri: 9AM to 5PM </p>
+                </div>
+              </div>
+
+
+            </div>
+
           </div>
-      </section>
-      <!-- contact end -->
-    </main>
+        </div>
+
+        <div class="col-md-6">
+          <form class="mt-2">
+            <div class="mt-3">
+              <input type="text" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your name"
+                id="exampleInputPassword1">
+
+              <input type="email" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your email"
+                id="exampleInputPassword1">
+
+              <input type="text" class="form-control bg-body-secondary py-3 mb-4" placeholder="Your subject"
+                id="exampleInputPassword1">
+
+              <input type="text" class="form-control bg-body-secondary py-5 mb-4" placeholder="Your message"
+                id="exampleInputPassword1">
+
+              <button style="width: 640px; height: 60px;" class="btn btn-danger ">Send Message</button>
+              <!-- Button trigger modal -->
+
+              <!-- <button class="btn btn-danger px-5 py-4 ">Send Message</button>  -->
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+  </main>
+
+  <footer class="">
+    <section class="container mt-5 mb-2 px-5 bg-dark text-white">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-3">
+          <img src="images/logo.png" alt="">
+          <div>
+            <p>There are many variations of
+              passages of Lorem Ipsum
+              available, but the majority have
+              suffered alteration in some
+              form, by injected humour</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <h3>Usefull link</h3>
+          <ul class="footer-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h3>Contact now</h3>
+          <span>555 4th 5t NW, Washington</span><br>
+          <span>DC 20530, United States</span><br><br>
+          <span>+88 01779888454</span><br>
+          <span>01646920961</span><br><br>
+          <span>habbibur@gmail.com</span><br>
+          <span>info@gmail.com</span><br>
+
+        </div>
+
+        <div class="col-md-3">
+          <h3>Subscribe</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, ducimus.</p>
+          <form action="">
+            <input type="email" class="form-control mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <button style="width:280px ;" class="btn btn-danger">Subscribe now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </footer>
 
 
 
@@ -387,7 +508,10 @@
 
 
 
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
